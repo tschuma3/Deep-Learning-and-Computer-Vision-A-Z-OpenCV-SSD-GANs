@@ -30,3 +30,10 @@ Cascading
         -- Taking a sub-window and looking at the image to see if a feature is present
             -- No == reject the sub-window
             -- Yes == move on to the next feature
+Single Shot Detection (SSD)
+    -- Does everything in a single shot with one Convolutional Neural Network
+        -- Can deal with training of identifying objects and identifying boarders
+        -- Can deal with scaling
+    -- The Multi-Box Concept
+    -- Predicting Object Positions
+    -- The Scale Problem
