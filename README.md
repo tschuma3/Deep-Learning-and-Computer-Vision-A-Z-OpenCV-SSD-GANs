@@ -37,3 +37,18 @@ Single Shot Detection (SSD)
     -- The Multi-Box Concept
     -- Predicting Object Positions
     -- The Scale Problem
+Generative Adversarial Network (GAN)
+    -- Have two components 
+        -- Generators (Generative 'G' of GAN)
+            -- Create the image and tries to trick the discriminator
+        -- Discriminator (Adversarial 'A' of GAN)
+            -- Tries and guess what image the generator made
+        -- They start from scratch and learn together
+        -- Both of them are Networks 'N' of GAN
+    -- How the GAN works
+        -- The Generator and Discriminator always train together
+        -- Input a noise signal into a the Generator
+        -- Output the image into the Discriminator along with actual images
+        -- Backpropigation occurs and the weights are updated
+        -- The Generator updates its weights based on if it has or hasn't tricked the Discriminator
+    -- Generative Adversarial Nets by Ian Goodfellow --> https://arxiv.org/pdf/1406.2661.pdf
